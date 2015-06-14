@@ -1,2 +1,3 @@
 # sails_ruslan
-sails_ruslan
+
+a [Sails](http://sailsjs.org) application
