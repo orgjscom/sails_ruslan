@@ -34,7 +34,12 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'get /createVideo': 'VideoController.createVideo',
+  'post /createVideo': 'VideoController.createVideo',
+  '/:lang/showVideoList': 'VideoController.showVideoList',
+  '/:lang/showVideoItem/:id': 'VideoController.showVideoItem'
 
   /***************************************************************************
   *                                                                          *
